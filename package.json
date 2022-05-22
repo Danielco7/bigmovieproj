@@ -1,4 +1,5 @@
 {
+  "homepage": "http://Danielco7.github.io/movieproj",
   "name": "myapp",
   "version": "0.1.0",
   "private": true,
@@ -13,7 +14,6 @@
     "@types/react-transition-group": "^4.4.4",
     "axios": "^0.25.0",
     "bootstrap": "^5.1.3",
-    "gh-pages": "^4.0.0",
     "mongo": "^0.1.0",
     "react": "^17.0.2",
     "react-router-dom": "^5.3.0",
@@ -25,6 +25,8 @@
   },
   "scripts": {
     "start": "react-scripts start",
+    "predeploy":"npm run biuld",
+    "deploy":"gh-pages -d biuld",
     "build": "react-scripts build",
     "test": "react-scripts test",
     "eject": "react-scripts eject"
@@ -46,5 +48,8 @@
       "last 1 firefox version",
       "last 1 safari version"
     ]
+  },
+  "devDependencies": {
+    "gh-pages": "^4.0.0"
   }
 }
