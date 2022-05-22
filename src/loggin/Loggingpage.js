@@ -1,6 +1,9 @@
 import React, { useEffect, useState } from 'react';
 import { BrowserRouter as Router, Switch, Route, Redirect,Link,} from "react-router-dom";
 import { getAll,updateObj,addObj,deleteObj} from '../utils';
+import logo from '../kisspng-roll-film-logo-cinema-roll-5abe468859c0a0.4946769715224193363676.png';
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
+import { faCoffee,faMusic } from '@fortawesome/free-solid-svg-icons'
 import '../css/loginpage.css';
 import MovieJson from '../api/movies';
 import MemberJson from '../api/members';
