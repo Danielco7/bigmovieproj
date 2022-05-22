@@ -225,7 +225,7 @@ function Logging({ history}) {
             <div className='loadingtext'>
                 loading...
             </div>
-        <div class="loader">
+        <div className="loader">
   <span></span>
   <span></span>
   <span></span>
