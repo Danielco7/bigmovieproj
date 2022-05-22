@@ -1,0 +1,287 @@
+.container {
+    position: relative;
+    width: 100%;
+    height: 100%;
+    max-height: 470px;
+    min-height: 470px;
+    max-width: 1250px;
+    margin: auto;
+  }
+  #imgbackground{
+    position: absolute;
+    width: 100%;
+    max-height: 450px;
+    min-height: 450px;
+    object-position: right bottom;
+    left: 0;
+    border-radius: 10px;
+    box-shadow: rgba(255, 255, 255, 0.438) 0px 10px 60px 8px;
+    
+  }
+
+  .container h1{
+    position: absolute;
+    width: 100%;
+    top: 0%;
+
+  }
+  .flexbox {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    top: 82%;
+    left: 33%;
+    justify-content: left;
+    align-items: top;
+  }
+  .container .btnn {
+    position: absolute;
+    top: 84%;
+    left: 18%;
+    background-color: #555;
+    color: white;
+    font-size: 16px;
+    padding: 12px 24px;
+    border: none;
+    cursor: pointer;
+    border-radius: 5px;
+    text-align: center;
+  }
+  
+  .container .btnn:hover {
+    background-color: black;
+  }
+.search {
+    margin: 20px;
+  }
+  
+  .search > div {
+    display: inline-block;
+    position: relative;
+    filter: drop-shadow(0 1px #ff0000);
+  }
+  
+  .search > div:after {
+    content: "";
+    background: rgb(255, 0, 0);
+    width: 4px;
+    height: 13px;
+    position: absolute;
+    top: 20px;
+    right: -2px;
+    transform: rotate(135deg);
+  }
+  
+  .search > div > input {
+    color: rgb(255, 0, 0);
+    font-size: 16px;
+    background: transparent;
+    width: 25px;
+    height: 25px;
+    padding: 10px;
+    border: solid 3px rgb(255, 0, 0);
+    outline: none;
+    border-radius: 35px;
+    transition: width 0.5s;
+    cursor: pointer;
+  text-transform: capitalize;
+  }
+  
+  .search > div > input::placeholder {
+    color: #ff0000;
+    opacity: 0;
+    transition: opacity 150ms ease-out;
+  }
+  
+  .search > div > input:focus::placeholder {
+    opacity: 1;
+  }
+  
+  .search > div > input:focus,
+  .search > div > input:not(:placeholder-shown) {
+    width: 250px;
+  }
+  .innerswiper{
+  padding: 15px;
+  }
+  #slider123{
+    margin: left;
+    text-align: center;
+    
+  }
+  .movies{
+    position: relative;
+    width: 100%;
+    height: 100%;
+    max-height: 470px;
+    min-height: 470px;
+    max-width: 450px;
+    width: 100%;
+    height: 100%;
+    background-color: #32323b;
+    border-radius: 15px;
+    transition: 0.5s;
+    color: rgba(255, 255, 255, 0);
+    opacity: 0.8;
+  overflow:hidden; 
+
+  }
+  .header{
+    padding-top: 4px;
+    color: rgba(255, 255, 255, 1);
+
+  }
+  .imgcont{
+    margin-left: 20px;
+    margin-right: 20px;
+    background-color:red ;
+  }
+  .imges{
+    width: 100%;
+    height: 300px;
+    background-color: #292933;
+    opacity: 1;
+  }
+  .imges:hover{
+    opacity: 1;
+
+  }
+  .movies:hover{
+    opacity: 1;
+    color: rgba(255, 255, 255, 1);
+    box-shadow: rgba(216, 10, 10, 0.86) 0px 10px 60px 8px;
+  }
+
+.subbutton{
+  border: #fdfdff 2px solid;
+  color: azure;
+  display: inline;
+}
+.subbutton:hover{
+  cursor:pointer;
+  color: aqua;
+  border: aqua 4px solid;
+}
+.moviecontainer{
+  display: flex;
+  justify-content: space-around;
+}
+.moviebuttons{
+  background-color: #555;
+  color: white;
+  font-size: 16px;
+  padding: 12px 24px;
+  border: none;
+  cursor: pointer;
+  border-radius: 5px;
+}
+.moviebuttons:hover {
+  background-color: black;
+}
+.undo{
+  position: relative;
+  right: 10%;
+  top: 20px; 
+  cursor: pointer;
+  display: inline;
+  margin-bottom: -50px;
+}
+.undo:hover>svg>path {
+  fill: rgb(0, 255, 255);
+}
+.AddMovie ,.EditMovie{
+  width: 30%;
+  height: 430px;
+  color: rgb(255, 255, 255);
+  font-size: 1.5em;
+  margin: auto;
+  padding-top: 40px;
+}
+.AddMovieInput ,.EditMovieInput{
+  background-color: #555;
+  color: #fdfdff;
+  text-transform: capitalize;
+
+}
+.AddMovieInput:focus , .EditMovieInput:focus{
+  background-color: rgb(0, 0, 0);
+}
+.AddMoviecontainer, .EditMoviecontainer{
+  display: flex;
+  justify-content: space-evenly;
+}
+.AddMovieButtons ,.EditMovieButtons{
+  background-color: #555;
+  color: white;
+  font-size: 16px;
+  padding: 12px 24px;
+  border: none;
+  cursor: pointer;
+  border-radius: 5px;
+}
+.AddMovieButtons:hover , .EditMovieButtons:hover{
+  background-color: black;
+}
+.MemebrsContainer{
+
+  margin: auto;
+}
+
+.Memebrs{
+  position: relative;
+  width: 100%;
+  height: 100%;
+  min-height: 370px;
+  max-height: 440px;
+  max-width: 450px;
+  width: 100%;
+  height: 100%;
+  background-color: #363639;
+  border-radius: 15px;
+  transition: 0.5s;
+  overflow:hidden; 
+
+}
+.subslist{
+  max-height: 100px;
+  overflow-y:auto; 
+  overflow-y:scroll;
+  display: flex;
+  flex-direction:column-reverse ;
+}
+
+.subslist::-webkit-scrollbar {
+  width: 0.5em;
+}
+
+.subslist::-webkit-scrollbar-track {
+  background-color: rgba(255, 255, 255, 0.884);
+  border-radius: 70px;
+
+}
+
+
+.subslist::-webkit-scrollbar-thumb {
+  background-color: rgb(43, 43, 43, 0.884);
+  border-radius: 90px;
+}
+
+.membersbuttons{
+  background-color: #555;
+  color: white;
+  font-size: 16px;
+  padding: 8px 24px;
+  border: none;
+  cursor: pointer;
+  border-radius: 5px;
+}
+.membersbuttons:hover {
+  background-color: black;
+}
+
+.movielist{
+  color: #eb0000;
+}
+.movielist:hover{
+  color: #8cdef5;
+}
