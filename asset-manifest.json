@@ -1,21 +1,21 @@
 {
   "files": {
-    "main.css": "/static/css/main.fceecf6c.css",
-    "main.js": "/static/js/main.1d2c60fb.js",
-    "static/js/787.d3befce1.chunk.js": "/static/js/787.d3befce1.chunk.js",
-    "static/media/signup.jpg": "/static/media/signup.a5f0fa5d6ea85be59117.jpg",
-    "static/media/—Pngtree—the background of the movie_869718.png": "/static/media/—Pngtree—the background of the movie_869718.09e26b4b3c32f79da155.png",
-    "static/media/background.jpg": "/static/media/background.da83690fc913d15961ac.jpg",
-    "static/media/workers.jpg": "/static/media/workers.4f16fc8ff00964d4fb11.jpg",
-    "static/media/kisspng-roll-film-logo-cinema-roll-5abe468859c0a0.png": "/static/media/kisspng-roll-film-logo-cinema-roll-5abe468859c0a0.4946769715224193363676.c90bb2d6c45681538d59.png",
-    "static/media/istockphoto-1132715308-612x612.jpg": "/static/media/istockphoto-1132715308-612x612.d16af0c77068a0ea441c.jpg",
-    "index.html": "/index.html",
-    "main.fceecf6c.css.map": "/static/css/main.fceecf6c.css.map",
-    "main.1d2c60fb.js.map": "/static/js/main.1d2c60fb.js.map",
-    "787.d3befce1.chunk.js.map": "/static/js/787.d3befce1.chunk.js.map"
+    "main.css": "/bigmovieproj/static/css/main.c843a049.css",
+    "main.js": "/bigmovieproj/static/js/main.ae45353c.js",
+    "static/js/787.d3befce1.chunk.js": "/bigmovieproj/static/js/787.d3befce1.chunk.js",
+    "static/media/signup.jpg": "/bigmovieproj/static/media/signup.a5f0fa5d6ea85be59117.jpg",
+    "static/media/—Pngtree—the background of the movie_869718.png": "/bigmovieproj/static/media/—Pngtree—the background of the movie_869718.09e26b4b3c32f79da155.png",
+    "static/media/background.jpg": "/bigmovieproj/static/media/background.da83690fc913d15961ac.jpg",
+    "static/media/workers.jpg": "/bigmovieproj/static/media/workers.4f16fc8ff00964d4fb11.jpg",
+    "static/media/kisspng-roll-film-logo-cinema-roll-5abe468859c0a0.png": "/bigmovieproj/static/media/kisspng-roll-film-logo-cinema-roll-5abe468859c0a0.4946769715224193363676.c90bb2d6c45681538d59.png",
+    "static/media/istockphoto-1132715308-612x612.jpg": "/bigmovieproj/static/media/istockphoto-1132715308-612x612.d16af0c77068a0ea441c.jpg",
+    "index.html": "/bigmovieproj/index.html",
+    "main.c843a049.css.map": "/bigmovieproj/static/css/main.c843a049.css.map",
+    "main.ae45353c.js.map": "/bigmovieproj/static/js/main.ae45353c.js.map",
+    "787.d3befce1.chunk.js.map": "/bigmovieproj/static/js/787.d3befce1.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.fceecf6c.css",
-    "static/js/main.1d2c60fb.js"
+    "static/css/main.c843a049.css",
+    "static/js/main.ae45353c.js"
   ]
 }
