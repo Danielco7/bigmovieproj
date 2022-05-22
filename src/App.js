@@ -9,8 +9,7 @@ library.add(fab, faCheckSquare, faUser,faUserGroup,)
 function App() {
   return (
     <div className="App" >
-      asdasdasda
-           {/* <MainComp></MainComp> */}
+           <MainComp></MainComp> 
     </div>
   );
 }
